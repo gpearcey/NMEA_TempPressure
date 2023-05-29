@@ -14,6 +14,8 @@ Note: The latest version of ESP-IDF is not compatible with the Ardunio library u
 
 The main branch will build. It does not include the NMEA 2000 library. 
 
-The NMEA2000 branch adds the NMEA2000 library.  
+The NMEA2000 branch adds the [NMEA2000 library](https://github.com/ttlappalainen/NMEA2000) as a git submodule and as a subdirectory in the project's CMakeLists.
+That branch will not build. 
+
 
 
