@@ -2,12 +2,13 @@
 //file: main.cpp
 #include <Arduino.h>
 #include <Preferences.h>
-//#include <NMEA2000_CAN.h>
-//#include <N2kMessages.h>
+#include <NMEA2000_CAN.h>
+#include <N2kMessages.h>
 #include <Wire.h>
 //#include <Adafruit_BMP280.h>
 
 void setup(){
+  NMEA2000.SetN2kCANMsgBufSize(8);
   Serial.begin(115200);
   while(!Serial){
     ; // wait for serial port to connect
