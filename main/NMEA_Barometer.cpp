@@ -1,8 +1,8 @@
 
 //file: main.cpp
 #include <Arduino.h>
-//#include <Preferences.h>
-#include <NMEA2000_CAN.h>
+#include <Preferences.h>
+//#include <NMEA2000_CAN.h>
 //#include <N2kMessages.h>
 #include <Wire.h>
 //#include <Adafruit_BMP280.h>
